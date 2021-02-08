@@ -1,0 +1,22 @@
+[class*='col-']{
+  height: 20vh;
+  border: 1px solid black;
+  background-color: #FFC0CB;
+  text-align: center;
+  position: relative;
+}
+
+span{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nested{
+  padding: 5px;
+}
+.nested [class*='col-']{
+  height: calc(20vh - 10px);
+  background-color: #F07F80;
+  border: 1px solid white;
+}
