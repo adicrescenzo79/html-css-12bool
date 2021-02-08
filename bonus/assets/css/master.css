@@ -1,5 +1,9 @@
+.container{
+  background-color: #FFC9E0;
+}
+
 [class*='col-']{
-  height: 50px;
+  height: calc(100vh / 18);
 }
 
 .black{
@@ -16,4 +20,8 @@
 
 .yellow{
   background-color: #FEC14E;
+}
+
+.white{
+  background-color: #ffffff;
 }
